@@ -127,6 +127,48 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\assets\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="Content\assets\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="Content\assets\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Content\assets\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Content\assets\datepicker\jquery.datetimepicker.full.js" />
+    <Content Include="Content\assets\datepicker\jquery.datetimepicker.min.css" />
+    <Content Include="Content\assets\dropdown\css\style.css" />
+    <Content Include="Content\assets\dropdown\js\nav-dropdown.js" />
+    <Content Include="Content\assets\dropdown\js\navbar-dropdown.js" />
+    <Content Include="Content\assets\formoid\formoid.min.js" />
+    <Content Include="Content\assets\formstyler\jquery.formstyler.css" />
+    <Content Include="Content\assets\formstyler\jquery.formstyler.js" />
+    <Content Include="Content\assets\formstyler\jquery.formstyler.min.js" />
+    <Content Include="Content\assets\formstyler\jquery.formstyler.theme.css" />
+    <Content Include="Content\assets\images\background15.jpg" />
+    <Content Include="Content\assets\images\features1.jpg" />
+    <Content Include="Content\assets\images\features2.jpg" />
+    <Content Include="Content\assets\images\features3.jpg" />
+    <Content Include="Content\assets\images\features4.jpg" />
+    <Content Include="Content\assets\images\logo.png" />
+    <Content Include="Content\assets\images\mbr-1-1900x1266.jpg" />
+    <Content Include="Content\assets\images\mbr-1-1900x1267.jpg" />
+    <Content Include="Content\assets\images\mbr-1900x1266.jpg" />
+    <Content Include="Content\assets\images\mbr-1900x1267.jpg" />
+    <Content Include="Content\assets\images\mbr-1900x1424.jpg" />
+    <Content Include="Content\assets\images\mbr-96x71.png" />
+    <Content Include="Content\assets\images\product1.jpg" />
+    <Content Include="Content\assets\images\product2.jpg" />
+    <Content Include="Content\assets\images\product3.jpg" />
+    <Content Include="Content\assets\mobirise\css\mbr-additional.css" />
+    <Content Include="Content\assets\popper\popper.min.js" />
+    <Content Include="Content\assets\smoothscroll\smooth-scroll.js" />
+    <Content Include="Content\assets\socicon\css\styles.css" />
+    <Content Include="Content\assets\socicon\fonts\socicon.svg" />
+    <Content Include="Content\assets\tether\tether.min.css" />
+    <Content Include="Content\assets\tether\tether.min.js" />
+    <Content Include="Content\assets\theme\css\style.css" />
+    <Content Include="Content\assets\theme\js\script.js" />
+    <Content Include="Content\assets\touchswipe\jquery.touch-swipe.min.js" />
+    <Content Include="Content\assets\web\assets\jquery\jquery.min.js" />
+    <Content Include="Content\assets\web\assets\mobirise-icons2\mobirise2.css" />
+    <Content Include="Content\assets\web\assets\mobirise-icons2\mobirise2.svg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -137,6 +179,14 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\assets\images\hashes.json" />
+    <Content Include="Content\assets\socicon\fonts\socicon.eot" />
+    <Content Include="Content\assets\socicon\fonts\socicon.ttf" />
+    <Content Include="Content\assets\socicon\fonts\socicon.woff" />
+    <Content Include="Content\assets\socicon\fonts\socicon.woff2" />
+    <Content Include="Content\assets\web\assets\mobirise-icons2\mobirise2.eot" />
+    <Content Include="Content\assets\web\assets\mobirise-icons2\mobirise2.ttf" />
+    <Content Include="Content\assets\web\assets\mobirise-icons2\mobirise2.woff" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -163,6 +213,8 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_MyLayoutPage.cshtml" />
+    <Content Include="Views\Home\Requests.cshtml" />
+    <Content Include="Views\Home\Employment.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -199,7 +251,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>61685</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:55943/</IISUrl>
+          <IISUrl>http://localhost:55945/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

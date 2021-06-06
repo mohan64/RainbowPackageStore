@@ -26,5 +26,15 @@ namespace RainbowPackageStore.Controllers
 
             return View();
         }
+
+        public ActionResult Requests()
+        {
+            return View();
+        }
+
+        public ActionResult Employment()
+        {
+            return View();
+        }
     }
 }
