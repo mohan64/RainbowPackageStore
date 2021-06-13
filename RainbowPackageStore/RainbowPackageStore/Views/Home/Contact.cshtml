@@ -4,10 +4,10 @@
 
 
 
-<section style="padding-top:10rem;min-height:550px;text-align:center">
-    <h1>Page Under Construction</h1>
+@*<section style="padding-top:10rem;min-height:550px;text-align:center">
+        <h1>Page Under Construction</h1>
 
-</section>
+    </section>*@
 
 @*<h2>@ViewBag.Title.</h2>
     <h3>@ViewBag.Message</h3>
@@ -23,3 +23,132 @@
         <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
         <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
     </address>*@
+
+<section class="form1 cid-sextuXDMFb mbr-fullscreen mbr-parallax-background" id="form1-1m">
+
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(255, 255, 255);"></div>
+    <div class="align-center container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
+                <!--<form method="POST" class="mbr-form form-with-styler" data-form-title="Form Name">-->
+                <input type="hidden" name="email" data-form-email="true"
+                       value="jHEg5j1KaFDasQZ3yFBswibxKefnRWxTrRfIUyi2o1UiFwY92esgHBG0ImvNbGHWDHZMqcj0QXpKQyAUXyLaP3kQdlh2wTUPp8c8kLkdLHvtLOI2WqKC3UqIh5hOMaq1">
+                @*<div class="">
+                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">
+                            Thanks for filling
+                            out the form!
+                        </div>
+                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
+                            Oops...! some
+                            problem!
+                        </div>
+                    </div>*@
+                <div class="dragArea row">
+                    <div class="col-12">
+                        <h1 class="mbr-section-title mb-4 display-2">
+                            <strong>Get in Touch!</strong>
+                        </h1>
+                    </div>
+                    <div class="col-12 col-md-6" style="text-align:start">
+                        <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
+                            <strong>Enquiries</strong>
+                        </h5>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            Please use this form if you would like to contact us, give us feedback or praise, or have some other matter you'd like to address. This form is monitored by our staff and we'll get back to you within 2 business days.
+                            <br />
+                            If you are trying to request a product that you cannot find or that we do not carry, please use our request form.
+                        </p>
+                        <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 mt-4 display-7">
+                            <strong>Contacts</strong>
+                        </h5>
+                        <p class="mbr-text mbr-fonts-style mb-4 display-7">
+                            Email: support@rainbowpackagestore.com <br>
+                            Phone: +1 (0) 000 0000 001 <br>
+                            Fax: +1 (0) 000 0000 002
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="col-12 form-group" data-for="name">
+                            <input type="text" name="q1_name" placeholder="Name" data-form-field="Name"
+                                   class="form-control" id="name-form1-1m" required>
+                        </div>
+                        <div class="col-12 form-group" data-for="phonenumber">
+                            <input type="tel" name="q1_name" placeholder="Phone Number" data-form-field="Name"
+                                   class="form-control" id="phonenumber-form1-1m" required>
+                        </div>
+                        <div class="col-12 form-group" data-for="email">
+                            <input type="email" name="q2_email" placeholder="Email" data-form-field="Email"
+                                   class="form-control" id="email-form1-1m" required>
+                        </div>
+                        <div class="col-12 form-group" data-for="message">
+                            <textarea rows="5" type="text" name="q3_message" placeholder="Your Message"
+                                      data-form-field="Message" class="form-control" id="message-form1-1m"
+                                      required></textarea>
+                        </div>
+                        <div class="mbr-section-btn col-6 col-md-auto">
+                            <button type="submit" class="btn btn-primary display-4"
+                                    onclick="sendEmail()">
+                                Submit
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!--</form>-->
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    async function sendEmail() {
+
+    var fromName = document.getElementById('name-form1-1m').value;
+    if (fromName == undefined || fromName == null || fromName == '') return;
+
+    var fromEmail = document.getElementById('email-form1-1m').value;
+    if (fromEmail == undefined || fromEmail == null || fromEmail == '' || !validateEmail(fromEmail)) return;
+
+    var strMessage = document.getElementById('message-form1-1m').value;
+    if (strMessage == undefined || strMessage == null || strMessage == '') return;
+
+
+    var strJSON = {
+        sender: {
+            email: "m.mohankrisha54321@gmail.com"
+        },
+        to: [{
+            email: "m.mohankrisha54321@gmail.com"
+        }],
+        replyTo: {
+            email: "m.mohankrisha54321@gmail.com"
+        },
+        "htmlContent": "Name: <b>" + fromName + "</b><br/>" +
+            "Email: <b>" + fromEmail + "</b><br/>" +
+            "Phone Number: <b>" + document.getElementById('phonenumber-form1-1m').value + "</b><br/>" +
+            "Customer Message: <b>" + strMessage + "</b><br/>",
+        "subject": "Rainbow Package Store"
+    }
+
+    let url = 'https://api.sendinblue.com/v3/smtp/email';
+    let options = {
+        method: 'POST',
+        headers: {
+            Accept: 'application/json',
+            'Content-Type': 'application/json',
+            'api-key': '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'
+        },
+
+        body: JSON.stringify(strJSON)
+    };
+
+    var response = await fetch(url, options);
+    alert("Mail Sent Successfully. Get back you soon!");
+    window.location = "@Url.Action("Index", "Home")";
+}
+
+function validateEmail(email) {
+    @*const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());*@
+    return true;
+}
+</script>
