@@ -141,6 +141,8 @@
     <Content Include="Content\assets\formstyler\jquery.formstyler.js" />
     <Content Include="Content\assets\formstyler\jquery.formstyler.min.js" />
     <Content Include="Content\assets\formstyler\jquery.formstyler.theme.css" />
+    <Content Include="Content\assets\images\6.jpg" />
+    <Content Include="Content\assets\images\background1.jpg" />
     <Content Include="Content\assets\images\background15.jpg" />
     <Content Include="Content\assets\images\features1.jpg" />
     <Content Include="Content\assets\images\features2.jpg" />
@@ -251,7 +253,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>61685</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:55945/</IISUrl>
+          <IISUrl>http://localhost:61685/RainbowPackageStore</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

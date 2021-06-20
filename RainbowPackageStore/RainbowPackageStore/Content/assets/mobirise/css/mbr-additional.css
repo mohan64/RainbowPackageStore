@@ -1390,8 +1390,8 @@ a {
 }
 
 .cid-sz3zfroSTO {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     background-color: #ffffff;
 }
 
@@ -1688,8 +1688,8 @@ a {
 }
 
 .cid-sz3zAISHCX {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     background-color: #ffffff;
 }
 
@@ -1732,7 +1732,7 @@ a {
 @media (min-width: 992px) {
     .cid-sz3zAISHCX .card-box {
         padding-left: 2rem;
-        padding-right: 4rem;
+        padding-right: 2rem;
     }
 }
 
@@ -2438,3 +2438,81 @@ a {
     .cid-sextuXDMFb .mbr-section-btn {
         margin-bottom: 1.2rem;
     }
+
+
+.cid-sAQi4fbwot {
+    background-image: url("../../images/background1.jpg");
+}
+
+@media (max-width: 991px) {
+    .cid-sAQi4fbwot .image-wrapper {
+        margin-bottom: 1rem;
+    }
+}
+
+.cid-sAQi4fbwot .row {
+    flex-direction: row-reverse;
+}
+
+.cid-sAQi4fbwot img {
+    width: 100%;
+}
+
+.cid-sAQp50LkuP {
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+    background-color: #40b0bf;
+    color: #fafafa;
+}
+
+@media (min-width: 991px) {
+    .cid-sAQp50LkuP .container-fluid {
+        padding-left: 0;
+    }
+}
+
+.cid-sAQp50LkuP .mbr-text,
+.cid-sAQp50LkuP .mbr-section-btn {
+    /*color: #232323;*/
+}
+
+@media (max-width: 991px) {
+    .cid-sAQp50LkuP .mbr-text,
+    .cid-sAQp50LkuP .mbr-section-btn {
+        text-align: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .cid-sAQp50LkuP .mbr-text,
+    .cid-sAQp50LkuP .mbr-section-title {
+        text-align: center;
+    }
+}
+
+.cid-sAQp50LkuP a.btn {
+    height: 100%;
+    margin: 0;
+}
+
+.cid-sAQp50LkuP .mbr-section-btn {
+    display: flex;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+    .cid-sAQp50LkuP .mbr-section-btn .btn {
+        /*width: 100%;*/
+        width: max-content;
+        color: white !important;
+    }
+
+@media (max-width: 991px) {
+    .cid-sAQp50LkuP .image-wrapper {
+        margin-bottom: 2rem;
+    }
+}
+
+.cid-sAQp50LkuP .justify-content-center {
+    align-items: flex-start;
+}
