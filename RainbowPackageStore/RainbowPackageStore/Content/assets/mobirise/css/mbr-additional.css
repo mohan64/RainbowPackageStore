@@ -2516,3 +2516,130 @@ a {
 .cid-sAQp50LkuP .justify-content-center {
     align-items: flex-start;
 }
+
+
+.cid-sAQp50LkuP {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    background-color: #ffe161;
+}
+
+@media (min-width: 991px) {
+    .cid-sAQp50LkuP .container-fluid {
+        padding-left: 0;
+    }
+}
+
+.cid-sAQp50LkuP .mbr-text,
+.cid-sAQp50LkuP .mbr-section-btn {
+    color: #232323;
+}
+
+@media (max-width: 991px) {
+    .cid-sAQp50LkuP .mbr-text,
+    .cid-sAQp50LkuP .mbr-section-btn {
+        text-align: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .cid-sAQp50LkuP .mbr-text,
+    .cid-sAQp50LkuP .mbr-section-title {
+        text-align: center;
+    }
+}
+
+.cid-sAQp50LkuP a.btn {
+    height: 100%;
+    margin: 0;
+}
+
+.cid-sAQp50LkuP .mbr-section-btn {
+    display: flex;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+    .cid-sAQp50LkuP .mbr-section-btn .btn {
+        width: 100%;
+    }
+
+@media (max-width: 991px) {
+    .cid-sAQp50LkuP .image-wrapper {
+        margin-bottom: 2rem;
+    }
+}
+
+.cid-sAQp50LkuP .justify-content-center {
+    align-items: center;
+}
+
+
+.cid-sAY2yYIBwb {
+    background-image: url("../../images/background2.jpg");
+}
+
+    .cid-sAY2yYIBwb .mbr-text,
+    .cid-sAY2yYIBwb .mbr-section-btn {
+        color: #232323;
+    }
+
+    .cid-sAY2yYIBwb .btn {
+        width: 100%;
+    }
+
+    .cid-sAY2yYIBwb .mbr-section-btn {
+        margin-bottom: 1.2rem;
+    }
+
+    .cid-sAY2yYIBwb P {
+        text-align: left;
+    }
+
+.cid-sAY59y18wh {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    background-color: #ffffff;
+}
+
+    .cid-sAY59y18wh .line {
+        background-color: #6592e6;
+        align: center;
+        height: 2px;
+        margin: 0 auto;
+    }
+
+    .cid-sAY59y18wh .mbr-text {
+        text-align: center;
+    }
+
+
+.cid-sAY2wie5tp {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: lightgrey;
+}
+
+    .cid-sAY2wie5tp .mbr-overlay {
+        background-color: #ffffff;
+        opacity: 0.4;
+    }
+
+    .cid-sAY2wie5tp form .mbr-section-btn {
+        text-align: center;
+        width: 100%;
+    }
+
+        .cid-sAY2wie5tp form .mbr-section-btn .btn {
+            display: inline-flex;
+        }
+
+@media (max-width: 991px) {
+    .cid-sAY2wie5tp form .mbr-section-btn .btn {
+        width: 100%;
+    }
+}
+
+.cid-sAY2wie5tp .mbr-section-title {
+    text-align: center;
+}

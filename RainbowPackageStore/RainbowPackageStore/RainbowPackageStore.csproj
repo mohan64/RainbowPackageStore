@@ -144,6 +144,7 @@
     <Content Include="Content\assets\images\6.jpg" />
     <Content Include="Content\assets\images\background1.jpg" />
     <Content Include="Content\assets\images\background15.jpg" />
+    <Content Include="Content\assets\images\background2.jpg" />
     <Content Include="Content\assets\images\features1.jpg" />
     <Content Include="Content\assets\images\features2.jpg" />
     <Content Include="Content\assets\images\features3.jpg" />
@@ -159,6 +160,7 @@
     <Content Include="Content\assets\images\product2.jpg" />
     <Content Include="Content\assets\images\product3.jpg" />
     <Content Include="Content\assets\mobirise\css\mbr-additional.css" />
+    <Content Include="Content\assets\parallax\jarallax.min.js" />
     <Content Include="Content\assets\popper\popper.min.js" />
     <Content Include="Content\assets\smoothscroll\smooth-scroll.js" />
     <Content Include="Content\assets\socicon\css\styles.css" />
