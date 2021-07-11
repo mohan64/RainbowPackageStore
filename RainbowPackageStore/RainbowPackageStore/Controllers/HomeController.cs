@@ -36,5 +36,10 @@ namespace RainbowPackageStore.Controllers
         {
             return View();
         }
+
+        public ActionResult BeerPairings()
+        {
+            return View();
+        }
     }
 }

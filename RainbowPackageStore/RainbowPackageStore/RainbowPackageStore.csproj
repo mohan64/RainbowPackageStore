@@ -219,9 +219,11 @@
     <Content Include="Views\Shared\_MyLayoutPage.cshtml" />
     <Content Include="Views\Home\Requests.cshtml" />
     <Content Include="Views\Home\Employment.cshtml" />
+    <Content Include="Views\Home\BeerPairings.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\assets\images\beerpairings\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

@@ -76,6 +76,11 @@ a {
     font-weight: 400;
 }
 
+
+p {
+    text-align: justify;
+}
+
 b,
 strong {
     font-weight: bold;
@@ -817,10 +822,10 @@ body {
     color: #232323;
     line-height: 1rem !important;
     height: auto;
-    padding: 0.6rem 1.2rem;
+    padding: 0.2rem 1.2rem;
     transition: border-color 0.25s ease 0s;
     border: 1px solid transparent !important;
-    border-radius: 4px;
+    border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px 0px, rgba(0, 0, 0, 0.07) 0px 1px 3px 0px, rgba(0, 0, 0, 0.03) 0px 0px 0px 1px;
 }
 
@@ -864,7 +869,7 @@ textarea.form-control {
 
 .form-control,
 form .btn {
-    min-height: 48px;
+    min-height: 40px;
 }
 
 .gdpr-block label span.textGDPR input[name=gdpr] {
@@ -921,8 +926,8 @@ blockquote {
     }
 
     .row {
-        margin-left: -16px;
-        margin-right: -16px;
+        margin-left: -50px;
+        margin-right: -50px;
     }
 
         .row > [class*=col] {
